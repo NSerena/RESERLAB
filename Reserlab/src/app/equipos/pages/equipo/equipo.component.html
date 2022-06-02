@@ -1,0 +1,31 @@
+<mat-grid-list cols="1" *ngIf="!equipo; else divEquipo">
+  <mat-grid-tile>
+    <mat-spinner></mat-spinner>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #divEquipo>
+  <div fxLayout="column" fxLayoutGap="30px">
+    <div fxLayout="column" fxLayoutAlign="center">
+      <h1>{{ equipo.nombre }}</h1>
+      <mat-divider></mat-divider>
+      <br />
+      <img [src]="equipo | imagen" />
+    </div>
+
+    <div>
+      <h1>Descripción</h1>
+      <p>{{ equipo.desc }}</p>
+      <div fxLayout="row">
+        <a
+          href="http://sigeuz.unizar.es/?room=${{ equipo.localizador }}"
+          target="_blank"
+        >
+          <h2>Localizador SIGEUZ</h2>
+        </a>
+        <span class="spacer"></span>
+        <button mat-button color="warn" (click)="regresar()">Volver al listado</button>
+      </div>
+    </div>
+  </div>
+</ng-template>

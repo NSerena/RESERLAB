@@ -1,0 +1,199 @@
+{
+  "equipos": [
+    {
+      "nombre": "ESTUFA MEMMERT 1",
+      "id": "estufaMemmert",
+      "desc": "Las estufas Memmert modelo ULE 400 o UFE 400 son estufas de circulación natural ayudada por un ventilador situado al fondo de la estufa. La temperatura se mide con una sonda PT100 y está controlada por un microprocesador que permite una exactitud en la temperatura de 1ºC. Posee un volumen de 53l y un rango de temperatura de 5ºC por encima de la Tªambiente - 300 ºC.",
+      "tipo": "térmicos",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "ESTUFA MEMMERT 3",
+      "id": "estufaMemmert3",
+      "desc": "Las estufas Memmert modelo ULE 400 o UFE 400 son estufas de circulación natural ayudada por un ventilador situado al fondo de la estufa. La temperatura se mide con una sonda PT100 y está controlada por un microprocesador que permite una exactitud en la temperatura de 1ºC. Posee un volumen de 53l y un rango de temperatura de 5ºC por encima de la Tªambiente - 200 ºC.",
+      "tipo": "térmicos",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "ESTUFA VACIO MEMMERT",
+      "id": "estufaMemmertVacio",
+      "desc": "La estufa Memmert modelo VO200 permite un secado a vacío más suave que en una estufa convencional con una exactitud de ajuste de 0,5 ºC y 1 mbar. Su volumen es de 29l y su rango de temperatura de 5ºC encima de la Tª ambiente-200ºC. Además de su rango de vacío de 10mbar - 1100mbar.",
+      "tipo": "térmicos",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "MUFLA HOBERSAL 1",
+      "id": "muflaHobersal",
+      "desc": "Horno para calcinaciones y tratamientos térmicos con programador de temperatura para hacer varios ciclos de calentamiento. En cada ciclo se puede programar el tiempo de subida de la temperatura (h), temperatura final (ºC) y tiempo de mantenimiento (h). Se pueden realizar hasta 8 ciclos. Su capacidad es de  9l y rango de temperatura de Tª ambiente - 1000ºC.",
+      "tipo": "térmicos",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "MUFLA HOBERSAL 2",
+      "id": "muflaHobersal2",
+      "desc": "Horno para calcinaciones y tratamientos térmicos con programador de temperatura para hacer varios ciclos de calentamiento. En cada ciclo se puede programar el tiempo de subida de la temperatura (h), temperatura final (ºC) y tiempo de mantenimiento (h). Se pueden realizar hasta 8 ciclos. Su capacidad es de  9l y rango de temperatura de Tª ambiente - 1000ºC.",
+      "tipo": "térmicos",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "CENTRIFUGA MEGAFUGE 16R",
+      "id": "centrifugaMegafuge",
+      "desc": "La Centrífuga MEGAFUGE 16R es una centrifuga de sobremesa para aplicaciones rutinarias y procesamiento de muestras sensibles a la temperatura. Está equipada con un rotor de ángulo fijo Fiberlite F15-6x100 (rmin = 25mm y rmax = 98mm) con capacidad de 6 tubos de 100ml  o 6 tubos de 50ml empleando adaptadores.  La velocidad máxima para este rotor es de 15000rpm (24652xg). El rango de temperaturas es -10ºC - 40ºC (depende de las rpm utilizadas).",
+      "tipo": "síntesis",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "DEDO SONICADOR BRANSON 450",
+      "id": "dedoSonicador",
+      "desc": "Este equipos posee un convertidor que transforma la energía eléctrica (20kHz) en vibraciones mecánicas cuales se trasmiten a la punta del sonicador sumergida en la solución provocando la cavitación y causando que las moléculas se agiten intensamente para disgregarse.Tiene dos tipos puntas: Double Stepped microtip 1/8″ diameter (0,1 - 10ml) y 1/2″ Diameter Stepped horn (10 - 500ml). Las puntas se erosionan con el tiempo de uso. Se recomienda una amplitud de menos del 40% y tiempos cortos de sonicación (30s) para la Double Stepped microtip  para alargar la vida de esta punta. Este equipo Permite programar el tiempo de experimento, ajustar la amplitud de vibración (10%-100%) o trabajar de forma continua o en pulsos.",
+      "tipo": "síntesis",
+      "localizador": "CRE.1209.02.C70"
+    },
+    {
+      "nombre": "MICROONDAS MILESTONE ETHOS PLUS",
+      "id": "microMilestone",
+      "desc": "El microondas Milestone  Ethos Plus es un microondas multimodal diseñado para la digestión  de muestras  para su posterior análisis elemental. La muestra es calentada en vasos cerrados transparentes a las microondas junto con los ácidos adecuados para la digestión. También se puede emplear para la síntesis de materiales disminuyendo tiempos y/o temperaturas de síntesis. Al tratarse de un microondas multimodal, la radiación no es del todo homogénea. Para solventar este problema los vasos de teflón giran durante la síntesis. El software permite hacer hasta 10 etapas y en cada etapa se puede definir tiempo, potencia y temperatura. No se recomienda una temperatura superior a 200ºC aunque permite temperaturas superiores. Máxima potencia 1000w. El volumen mínimo de la disolución en el vaso de teflón es de 8ml para asegurar que el termopar esta sumergido en la disolución.",
+      "tipo": "síntesis",
+      "localizador": "CRE.1209.02.C50"
+    },
+    {
+      "nombre": "ELECTRO - SPINNER YFLOW",
+      "id": "electroSpinner",
+      "desc": "Este equipo permite producir fibras y/o partículas de una gran variedad de materiales poliméricos  y en un amplio rango de tamaños. En particular, este equipo consta de un inyector con una aguja coaxial para la generación de nanopartículas o fibras coreshell de diferentes polímeros o para la encapsulación de fármacos, aromas, nanopartículas inorgánicas…. El equipo posee dos fuentes de alta tensión con polarización positiva (inyector) y negativa (colector) con un voltaje aplicable de hasta 60000V entre el inyector y el colector.",
+      "tipo": "síntesis",
+      "localizador": "CRE.1209.01.E50"
+    },
+
+    {
+      "nombre": "FTIR VERTEX 70",
+      "id": "ftirVertex",
+      "desc": "El espectrómetro infrarrojo por transformada de Fourier Bruker Vertex 70 permite comprender mejor la estructura molecular de los materiales, determinar la presencia de grupos funcionales o compuestos intermedios verificando reacciones químicas o conocer el contenido de las muestras y su evolución. Este equipo permite trabajar con las siguientes técnicas: Transmisión, ATR (Reflectancia total atenuada), DRIFT (Reflectancia difusa), Cámara catalítica y microscopio. Posee dos detectores TGS y MCT con un rango de medida de 400cm⁻¹ - 4000cm⁻¹  (600cm⁻¹ - 4000cm⁻¹ en ATR).",
+      "tipo": "caracterización",
+      "grupo": "INMA",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "RAMAN WITEC Alpha 300 M+",
+      "id": "ramanWitec",
+      "desc": "Este equipo proporciona información de la composición química, la cristalinidad o defectos de un material. Permite adquirir espectros en un punto individual, espectros a lo largo del tiempo, realizar perfiles de profundidad sobre un punto, áreas (dirección x-y), barridos en profundidad (dirección x-z) o toma de áreas (dirección x-y) en diferentes profundidades. El posterior tratamiento de datos permite la obtención de imágenes Raman según la intensidad de los picos obtenidos en los espectros. Los láseres disponibles son 488nm, 532nm, 633nm y 785nm.",
+      "tipo": "caracterización",
+      "grupo": "INMA",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "TAMAÑO PARTICULA NANOSIGHT MALVERN NS300",
+      "id": "nanoSightNS300",
+      "desc": "El NS300 permite un análisis rápido y automático de la distribución de tamaños y la concentración de todo tipo de nanopartículas, desde 20 a 1000 nm de diámetro. Utiliza la tecnología de Análisis de rastreo de nanopartículas (NTA). Tiene un láser de 405nm y una potencia de 65mw. Tiene un rango de temperatura de 5ºC encima Tªambiente - 50ºC y un rango de Concentración de 10⁶-10⁹ partículas/ml.",
+      "tipo": "caracterización",
+      "grupo": "INMA",
+      "localizador": "CRE.1209.01.F10"
+    },
+    {
+      "nombre": "TAMAÑO PARTICULA Y POTENCIAL Z BROOKHAVEN",
+      "id": "analizadorBrookhaven",
+      "desc": "Este equipo permite medir la distribución de tamaño de partículas, emulsiones, coloides o macromoléculas, pudiéndo expresar los resultados en función de Intensidad, número o volumen. Se pueden medir tamaños de 2nm a 3μm y volúmenes de muestra de 0.5 - 3ml. La medición está basada en los principios de la dispersión dinámica de luz (DLS). Este equipo también permite evaluar el potencial zeta de una partícula usando la movilidad electroforética de las partículas. Esta medida da información sobre  la repulsión o atracción electrostática entre las partículas,  uno de los parámetros que afecta a la dispersión, agregación o floculación en una disolución. Su rango de temperatura es 5ºC - 75ºC y la longitud de onda del Láser es de 658nm.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "TGA METTLER TOLEDO (TGA/SDTA851ᵉ)",
+      "id": "tgaMettler",
+      "desc": "TGA (Análisis termogravimétrico) registra el peso de una sustancia  durante un programa de temperatura en una atmósfera de aire o nitrógeno controlada. Este equipo también permite hacer DTA, en este caso se registra el cambio de temperatura con respecto a la temperatura de referencia. No posee muestrador automático. Su rango de temperatura es de Tªambiente - 1100ºC, el tamaño de los crisoles disponibles es 70µl o 900µl y su rampa máxima de calentamiento de 100K/min.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "TGA TA INSTRUMENT Q 5000 IR",
+      "id": "tgaTA",
+      "desc": "Este equipo mide la masa de una muestra mientras se calienta o se enfría en una atmósfera de nitrógeno o aire controlada. Dispone de un sistema que ofrece tecnología de calentamiento infrarroja patentada pudiendo conseguir rampas de calentamiento y enfriamiento muy elevadas.  Además posee un muestrador automático con capacidad de 25 crisoles. Su rango de temperatura es de Tªambiente - 1200ºC y su rampa de calentamiento de 0.1ºC/min - 500ºC/min.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "DSC METTLER TOLEDO(DSC 822ᵉ)",
+      "id": "dscMettler",
+      "desc": "DSC (Calorimetría diferencial de barrido) mide el cambio en la diferencia de flujo de calor entre una muestra y un material de referencia mientras están sujetos a un programa de temperatura controlada. Se emplea para estudiar procesos térmicos (transiciones vítreas, fusión..), caracterizar o simplemente para comparar materiales. Su rango de temperatura es de Tªambiente - 700ºC (el crisol elegido puede limitar la temperatura) y su rampa máxima de calentamiento de 100K/min.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "ULTRAVIOLETA JASCO V-670",
+      "id": "uvaJasco",
+      "desc": "Los espectrofotómetros son equipos que permiten evaluar la luz que es absorbida, transmitida o reflejada por un material -sólido o líquido- para cada longitud de onda. Este equipo posee dos fuentes de luz: una lámpara de Deuterio (187nm - 350nm) para emplear en la región UV y otra lámpara halógena (330 - 2700nm) para el uso en la región VIS/NIR.  Además posee  una esfera integradora de 60mm para medir transmitancia o reflectancia de muestras solidas o liquida, opacas o traslucidas. Este equipo también se puede emplear para Identificar compuestos presentes en una disolución, cuantificar determinadas especies y obtener información del tamaño de nanopartículas mediante su plasmón.",
+      "tipo": "caracterización",
+      "grupo": "CREG",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "ULTRAVIOLETA VARIAN CARY 50PROBE",
+      "id": "uvaVarian",
+      "desc": "Este espectrofotómetro permite medir la luz que es absorbida o transmitida por un líquido para cada longitud de onda. El rango de medición es de 190 - 1100 nm obtenido a partir de una lámpara de Xenón. Ofrece velocidades de escaneo de hasta 24000 nm/min y una tasa de medición máxima de 80 puntos de datos por s. Este equipo  se puede emplear para Identificar compuestos presentes en una disolución, cuantificar determinadas especies y obtener información del tamaño de nanopartículas mediante su plasmón.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "ULTRAVIOLETA SHIMADZU UV-2600 i",
+      "id": "uvaShimadzu",
+      "desc": "Los espectrofotómetros son equipos que permiten evaluar la luz que es absorbida, transmitida o reflejada por un material -sólido o líquido- para cada longitud de onda. Este equipo esta enfocado  para trabajar preferencialmente con esfera integradora (diámetro de 60mm), aunque también posee una bancada convencional para cubetas. Posee dos detectores: un fotomultiplicador y un detector InGaAs. El rango de medicion es del 220nm - 1400nm. En el caso de la bancada optica unicamente tiene un detector fotomultiplicador que llega hasta 900nm. Permite hacer medidas de reflectancia difusa, total y transmitancia de muestras solidas o liquidas opacas, traslucidas o transparentes.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    },
+    {
+      "nombre": "MP-AES AGILENT 4100",
+      "id": "mp-aesAgilent",
+      "desc": "Es un espectrómetro de emisión atómica de plasma por microondas lo que significa que su fuente de excitación es  una fuente de plasma por microondas excitada magnéticamente. Este equipo se puede emplear para cuantificar iones metálicos en disoluciones acuosas midiendo la intensidad de la luz emitida por los átomos en estados excitados. Las muestras deben estar perfectamente digeridas en estado iónico. Para la calibración del equipo es necesaria la preparación de unos estándares con una concentración conocida de los metales a analizar en la misma matriz de la muestra.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.01.E50"
+    },
+    {
+      "nombre": "TPR QUANTACHROME ChemBET Pulsar",
+      "id": "trpQuantachrome",
+      "desc": "Este equipo permite someter a una muestra oxidada a un programa de temperatura en una mezcla reductora de gases (Ar/H2). Se emplea para la caracterización de materiales solidos usados en el campo de la catálisis para encontrar las condiciones óptimas de reducción, o comparar cualitativamente la dispersión metálica y la reproducibilidad de los catalizadores. El rango de temperatura del horno es de Tªambiente - 1100ºC.",
+      "tipo": "caracterización",
+      "grupo": "NFP",
+      "localizador": "CRE.1209.02.C60"
+    }
+  ],
+  "reservas":[
+    {
+      "nombre":"reserva1",
+      "id":"id1",
+      "subject":"a",
+      "calendar": "Room 1",
+      "start": "2022, 5, 26, 17, 0, 0",
+      "end": "2022, 5, 26, 17, 0, 0"
+    },
+    {
+      "nombre":"reserva2",
+      "id":"id2",
+      "subject":"a",
+      "calendar": "Room 2",
+      "start": "2022, 5, 30, 17, 30, 0",
+      "end": "2022, 5, 30, 18, 30, 0"
+    },
+    {
+      "nombre":"reserva3",
+      "id":"id3",
+      "subject":"a",
+      "calendar": "Room 3",
+      "start": "2022, 5, 31, 17, 0, 0",
+      "end": "2022, 5, 31, 18, 0, 0"
+    },
+    {
+      "nombre":"reserva4",
+      "id":"id4",
+      "subject":"a",
+      "calendar": "Room 4",
+      "start": "2022, 5, 1, 17, 0, 0",
+      "end": "2022, 5, 1, 17, 0, 0"
+    }
+
+  ]
+}

@@ -1,0 +1,10 @@
+<mat-card [routerLink]="['/equipos', equipo.id]">
+    <mat-card-header>
+      <mat-card-title>{{ equipo.nombre }}</mat-card-title>
+    </mat-card-header>
+    <!-- <img mat-card-image src="assets/fotos_equipos/{{ equipo.id }}.jpg" /> -->
+    <img mat-card-image [src]="equipo|imagen">
+    <mat-card-actions>
+      <button mat-raised-button color="warn">Ver más</button>
+    </mat-card-actions>
+</mat-card>

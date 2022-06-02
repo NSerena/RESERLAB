@@ -1,0 +1,53 @@
+<mat-sidenav-container>
+  <mat-toolbar role="heading" fxLayoutGap="90">
+    <button mat-icon-button>
+      <mat-icon>home</mat-icon>
+      <a href="https://nfp.unizar.es/">NFP Home</a>
+    </button>
+    <button mat-button [routerLink]="['./listado']">Listado</button>
+    <button mat-button [routerLink]="['../buscar']">
+      Buscar
+      <mat-icon>search</mat-icon>
+    </button>
+    <!-- Menu desplegable -->
+    <button mat-menu-item [matMenuTriggerFor]="menu">
+      Otros enlaces de interés
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="solicitudes">
+        Solicitudes
+      </button>
+      <button mat-menu-item>
+        <a href="http://reservadeaulas.unizar.es/" target="_blank"
+          >Reserva de aulas</a
+        >
+      </button>
+    </mat-menu>
+    <mat-menu #solicitudes="matMenu">
+      <a href="http://sai.unizar.es/solPrestSAI/" target="_blank" mat-menu-item
+        >SAI</a
+      >
+      <a href="http://82.223.223.103:8080/CEQMA/" target="_blank" mat-menu-item
+        >CEQMA</a
+      >
+      <a
+        href="https://lma.unizar.es/equipos-tarifas/"
+        target="_blank"
+        mat-menu-item
+        >LMA</a
+      >
+      <a
+        href="https://www.iacs.es/servicios/servicios-cientifico-tecnicos/"
+        target="_blank"
+        mat-menu-item
+        >IACS</a
+      >
+    </mat-menu>
+
+  </mat-toolbar>
+</mat-sidenav-container>
+<jqxScheduler [theme]="'material'" #calendarioReservas
+              [date]="date" [width]="'80%'" [height]="'92%'" [source]="dataAdapter" [rowsHeight]="10" [showLegend]="true" [view]="'weekView'"
+              [appointmentDataFields]="appointmentDataFields" [resources]="resources" [views]="views" [localization]="localization" style="margin: auto;"
+              >
+</jqxScheduler>

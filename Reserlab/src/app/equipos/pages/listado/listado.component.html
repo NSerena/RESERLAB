@@ -1,0 +1,25 @@
+<div fxLayout="row" class="intro">
+<h1>Nuestros equipos ({{tipoActivo}})</h1>
+<span class="spacer"></span>
+<span fxLayoutGap.="5">
+  Filtrar equipos:
+  <button mat-raised-button color="accent" *ngFor="let tipo of tipos" (click)="activarTipo(tipo)">
+    {{ tipo | uppercase }}
+  </button>
+</span>
+</div>
+
+<div
+  fxLayout="row wrap"
+  fxLayout.xs="column"
+  fxLayoutAlign="center"
+  fxLayoutGap="10"
+>
+  <div
+  fxFlex="20"
+  fxFlex.lg="18"
+  fxFlex.sm="30"
+  *ngFor="let equipo of equipos">
+    <app-equipo-tarjeta [equipo]="equipo"></app-equipo-tarjeta>
+  </div>
+</div>
